@@ -43,13 +43,13 @@ def player_two_marker(p1)
 end
 
 def player_one_choice
-	puts "Player 1 - Choose 1 thru 9"
+	puts "Player 1 - Choose Space"
 	player_one_answer = gets.chomp
 	player_one_answer.to_i
 end
 	
 def player_two_choice
-	puts "Player 2 - Choose Remaining Positions"
+	puts "Player 2 - Choose Space"
 	player_two_answer = gets.chomp
 	player_two_answer.to_i
 end	
